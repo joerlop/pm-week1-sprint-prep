@@ -15,3 +15,5 @@ FOR NICK PAGE
 -The only thing missing in the html is the navigation please add that
 -add to where you can link between family guy and nick page in the navigation
 -Add the proper css to finish the page
+
+CHANGE*
