@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -77,39 +77,72 @@ p {
 header .logo {
   width: 60px;
   height: 60px;
-  
+
+}
+
+.navigation-header {
+	display: flex;
+	height: 50px;
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.navigation-header img {
+	margin-right: 75px;
+	height: 99%;
+}
+
+.navigation-header a {
+	margin-right: 75px;
+	color: black;
 }
 
 
-
-
-
-
-
-
-
 /* ****************************************************************************   FAMILY GUY PAGE STYLES HERE   */
-
-
 
 .middle-image{
   width: 330px;
   height: 250px;
 }
 
+.title {
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
 
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 
+.content-box {
+	width: 48%;
+	padding: 20px 10px;
+	border-bottom: 1px solid black;
+}
 
+.content-box img {
+	margin-bottom: 10px;
+}
 
+.content-box p {
+	margin-bottom: 10px;
+}
 
+.content-box button {
+	background-color: white;
+	border: 1px solid black;
+	width: 60%;
+}
 
-
-
-
-
-
-
-
+.bottom-content {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
 
 
 /* *******************************************************************************  FOOTER STYLES HERE  */
@@ -121,6 +154,7 @@ header .logo {
 footer {
     width: 100%;
     background: white;
+		margin-bottom: 20px;
 }
 
 footer nav {
